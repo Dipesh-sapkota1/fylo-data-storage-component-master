@@ -31,8 +31,8 @@
   body{
     font-family: 'Raleway', sans-serif;
     font-size: 0.875rem;
-    background: url('./images/bg-mobile.png') no-repeat;
-    background-size: cover;
+    background: url('./images/bg-mobile.png') no-repeat center center/cover;
+   min-height: 100vh;
   }
   /* Utility */
   .container{
@@ -137,6 +137,7 @@
          background: url('./images/bg-desktop.png') no-repeat;
          background-position-y: 230px;
          background-color: var(--clr-very-dark-blue);
+         min-height: auto;
     }
     .container{
         flex-direction: row;
